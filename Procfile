@@ -1,2 +1,2 @@
 web: node node_server_forever.js -p $PORT
-web: node node_persistent_admin.js -p 80
+worker: node node_persistent_admin.js -p 80
